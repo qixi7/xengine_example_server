@@ -1,0 +1,21 @@
+{
+    "---------------项目全局字段--------------": "",
+    "ProjName": "projectX",
+    "Encoding": "lz4",
+    "GameCode": 501,
+    "WorldID": 10,
+    "ServerID": 1,
+    "-------------业务服务器通用字段-----------": "",
+    "MultiServerID": 1,
+    "MaxClient": 8000,
+    "LogLevel": 0,
+    "-----------------网络通用---------------": "",
+    "ClientTimeout": 15,
+    "KeyFile": "",
+    "CertFile": "",
+    "SelfIP": "127.0.0.1",
+    "------------------端口监听----------------": "",
+    "PingPort": 17998,
+    "PortBegin": 17000,
+    "MaxPortRange": 5
+}

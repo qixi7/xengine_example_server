@@ -1,0 +1,40 @@
+syntax = "proto3";
+package pb;
+option go_package = "pb";
+
+import "github.com/gogo/protobuf/gogoproto/gogo.proto";
+
+option (gogoproto.gostring_all) = true;
+option (gogoproto.marshaler_all) = true;
+option (gogoproto.sizer_all) = true;
+option (gogoproto.unmarshaler_all) = true;
+option (gogoproto.goproto_getters_all) = false;
+option (gogoproto.goproto_enum_prefix_all) = false;
+
+/*
+    规范:
+        1. 英文统一用【驼峰命名法】
+        2. MSGID命名规则: MSG_{SomeName}. 比如角色登陆: MSG_LoadRole
+        3. 双端交互的协议命名规则: {X}2{Y}_{SomeName}. 比如Client发给服务器: C2S_{MessageName}
+        4. 单独存在的协议命名规则: {FunctionName}_{SomeName}. 比如账号内部数据: Account_SomeData
+*/
+
+// GameServer 消息. 统一从100以后开始
+enum Game_Msg {
+    MSG_None = 0;                   // 占坑, proto3 规定
+    // ----- 登陆相关 -----
+    MSG_SyncRoleInfo = 1000;    // 同步玩家基础信息
+}
+
+// ----------------------------- 登陆相关 -----------------------------
+
+// 同步玩家基础信息
+message C2S_SyncRoleInfo {
+    uint32 roleID = 1;                  // 客户端唯一ID
+    string name = 2;                    // 名字
+}
+
+message S2C_SyncRoleInfo {
+    uint32 roleID = 1;   // 客户端唯一ID
+    string name = 2;     // 名字
+}

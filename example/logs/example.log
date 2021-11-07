@@ -1,0 +1,164 @@
+[INFO] 2021-11-07T14:19:04.12677+08:00 application.go:169: http listen  address: http://192.168.1.159:13000
+[INFO] 2021-11-07T14:19:04.12746+08:00 tcpserver.go:68: listen at tcp://0.0.0.0:17000
+[INFO] 2021-11-07T14:19:04.12767+08:00 init.go:58: init with args:
+{
+    "ProjName": "hehe",
+    "NodeType": "example",
+    "ServerID": 1,
+    "ZoneID": 31,
+    "LogLevel": 0,
+    "ServerDataDir": "../serverdata/",
+    "ServerConfigDir": "../config/",
+    "ClientTimeout": 15,
+    "MaxClient": 8000,
+    "SelfIP": "127.0.0.1",
+    "PortBegin": 17000,
+    "MaxPortRange": 5,
+    "RemoteID": 131,
+    "NodeName": "example_127.0.0.1_31",
+    "NowTCPListenAddr": "127.0.0.1:17000"
+}
+[INFO] 2021-11-07T14:19:18.60312+08:00 application.go:228: caught signal: interrupt
+[INFO] 2021-11-07T14:19:18.60888+08:00 dynamic.go:91: dynamic module [0:module_logic_AgentMgr] destroy
+[INFO] 2021-11-07T14:19:18.60892+08:00 dynamic.go:91: dynamic module [0:module_main_NetThread] destroy
+[INFO] 2021-11-07T14:19:18.60893+08:00 clientnet.go:140: client TCP channel closing
+[INFO] 2021-11-07T14:19:18.60898+08:00 clientnet.go:142: client channel closed
+[INFO] 2021-11-07T15:24:02.59289+08:00 application.go:169: http listen  address: http://192.168.1.159:13000
+[INFO] 2021-11-07T15:24:02.59389+08:00 tcpserver.go:68: listen at tcp://0.0.0.0:17000
+[INFO] 2021-11-07T15:24:02.59409+08:00 init.go:58: init with args:
+{
+    "ProjName": "hehe",
+    "NodeType": "example",
+    "ServerID": 1,
+    "ZoneID": 31,
+    "LogLevel": 0,
+    "ServerDataDir": "../serverdata/",
+    "ServerConfigDir": "../config/",
+    "ClientTimeout": 15,
+    "MaxClient": 8000,
+    "SelfIP": "127.0.0.1",
+    "PortBegin": 17000,
+    "MaxPortRange": 5,
+    "RemoteID": 131,
+    "NodeName": "example_127.0.0.1_31",
+    "NowTCPListenAddr": "127.0.0.1:17000"
+}
+[ERROR] 2021-11-07T15:25:11.221+08:00 tcpserver.go:183: [TCP] stop serving session 1: unregistered message id=1001
+[INFO] 2021-11-07T15:25:11.23691+08:00 clientnet.go:20: client ip=127.0.0.1:56790, sessionID=1 OnOpen
+[INFO] 2021-11-07T15:25:11.23698+08:00 clientnet.go:27: client sessionID=1 OnClose
+[INFO] 2021-11-07T15:25:11.23702+08:00 agentmgr.go:77: AgentMgr: DirectDestroyAgent, key={1}
+[INFO] 2021-11-07T15:26:57.58179+08:00 application.go:228: caught signal: interrupt
+[INFO] 2021-11-07T15:26:57.59493+08:00 dynamic.go:91: dynamic module [0:module_logic_AgentMgr] destroy
+[INFO] 2021-11-07T15:26:57.59496+08:00 dynamic.go:91: dynamic module [0:module_main_NetThread] destroy
+[INFO] 2021-11-07T15:26:57.59497+08:00 clientnet.go:140: client TCP channel closing
+[INFO] 2021-11-07T15:26:57.59502+08:00 clientnet.go:142: client channel closed
+[INFO] 2021-11-07T15:50:33.15258+08:00 application.go:169: http listen  address: http://192.168.1.159:13000
+[INFO] 2021-11-07T15:50:33.15341+08:00 tcpserver.go:68: listen at tcp://0.0.0.0:17000
+[INFO] 2021-11-07T15:50:33.15356+08:00 init.go:58: init with args:
+{
+    "ProjName": "hehe",
+    "NodeType": "example",
+    "ServerID": 1,
+    "ZoneID": 31,
+    "LogLevel": 0,
+    "ServerDataDir": "../serverdata/",
+    "ServerConfigDir": "../config/",
+    "ClientTimeout": 15,
+    "MaxClient": 8000,
+    "SelfIP": "127.0.0.1",
+    "PortBegin": 17000,
+    "MaxPortRange": 5,
+    "RemoteID": 131,
+    "NodeName": "example_127.0.0.1_31",
+    "NowTCPListenAddr": "127.0.0.1:17000"
+}
+[INFO] 2021-11-07T15:50:38.83523+08:00 clientnet.go:20: client ip=127.0.0.1:59577, sessionID=1 OnOpen
+[DEBUG] 2021-11-07T15:50:38.87778+08:00 rolemsg.go:19: key={1}, recvLogin, roleID=1001, name=hehe
+[INFO] 2021-11-07T15:50:44.07477+08:00 application.go:228: caught signal: interrupt
+[INFO] 2021-11-07T15:50:44.11592+08:00 dynamic.go:91: dynamic module [0:module_logic_AgentMgr] destroy
+[INFO] 2021-11-07T15:50:44.11597+08:00 dynamic.go:91: dynamic module [0:module_main_NetThread] destroy
+[INFO] 2021-11-07T15:50:44.11608+08:00 clientnet.go:140: client TCP channel closing
+[INFO] 2021-11-07T15:50:44.11617+08:00 clientnet.go:142: client channel closed
+[INFO] 2021-11-07T15:51:24.50597+08:00 application.go:169: http listen  address: http://192.168.1.159:13000
+[INFO] 2021-11-07T15:51:24.50662+08:00 tcpserver.go:68: listen at tcp://0.0.0.0:17000
+[INFO] 2021-11-07T15:51:24.50674+08:00 init.go:58: init with args:
+{
+    "ProjName": "hehe",
+    "NodeType": "example",
+    "ServerID": 1,
+    "ZoneID": 31,
+    "LogLevel": 0,
+    "ServerDataDir": "../serverdata/",
+    "ServerConfigDir": "../config/",
+    "ClientTimeout": 15,
+    "MaxClient": 8000,
+    "SelfIP": "127.0.0.1",
+    "PortBegin": 17000,
+    "MaxPortRange": 5,
+    "RemoteID": 131,
+    "NodeName": "example_127.0.0.1_31",
+    "NowTCPListenAddr": "127.0.0.1:17000"
+}
+[INFO] 2021-11-07T15:53:17.30457+08:00 application.go:228: caught signal: interrupt
+[INFO] 2021-11-07T15:53:17.30751+08:00 dynamic.go:91: dynamic module [0:module_logic_AgentMgr] destroy
+[INFO] 2021-11-07T15:53:17.30753+08:00 dynamic.go:91: dynamic module [0:module_main_NetThread] destroy
+[INFO] 2021-11-07T15:53:17.30754+08:00 clientnet.go:140: client TCP channel closing
+[INFO] 2021-11-07T15:53:17.30761+08:00 clientnet.go:142: client channel closed
+[INFO] 2021-11-07T15:53:19.5256+08:00 application.go:169: http listen  address: http://192.168.1.159:13000
+[INFO] 2021-11-07T15:53:19.52654+08:00 tcpserver.go:68: listen at tcp://0.0.0.0:17000
+[INFO] 2021-11-07T15:53:19.52674+08:00 init.go:58: init with args:
+{
+    "ProjName": "hehe",
+    "NodeType": "example",
+    "ServerID": 1,
+    "ZoneID": 31,
+    "LogLevel": 0,
+    "ServerDataDir": "../serverdata/",
+    "ServerConfigDir": "../config/",
+    "ClientTimeout": 15,
+    "MaxClient": 8000,
+    "SelfIP": "127.0.0.1",
+    "PortBegin": 17000,
+    "MaxPortRange": 5,
+    "RemoteID": 131,
+    "NodeName": "example_127.0.0.1_31",
+    "NowTCPListenAddr": "127.0.0.1:17000"
+}
+[INFO] 2021-11-07T15:53:23.64723+08:00 clientnet.go:20: client ip=127.0.0.1:59677, sessionID=1 OnOpen
+[DEBUG] 2021-11-07T15:53:23.64727+08:00 rolemsg.go:19: key={1}, recvLogin, roleID=1001, name=hehe
+[INFO] 2021-11-07T15:53:41.72685+08:00 clientnet.go:27: client sessionID=1 OnClose
+[INFO] 2021-11-07T15:53:41.72687+08:00 agentmgr.go:77: AgentMgr: DirectDestroyAgent, key={1}
+[INFO] 2021-11-07T15:53:47.32051+08:00 application.go:228: caught signal: interrupt
+[INFO] 2021-11-07T15:53:47.32769+08:00 dynamic.go:91: dynamic module [0:module_logic_AgentMgr] destroy
+[INFO] 2021-11-07T15:53:47.32773+08:00 dynamic.go:91: dynamic module [0:module_main_NetThread] destroy
+[INFO] 2021-11-07T15:53:47.32774+08:00 clientnet.go:140: client TCP channel closing
+[INFO] 2021-11-07T15:53:47.32779+08:00 clientnet.go:142: client channel closed
+[INFO] 2021-11-07T16:49:14.37754+08:00 application.go:169: http listen  address: http://192.168.1.159:13000
+[INFO] 2021-11-07T16:49:14.37907+08:00 tcpserver.go:68: listen at tcp://0.0.0.0:17000
+[INFO] 2021-11-07T16:49:14.37925+08:00 init.go:58: init with args:
+{
+    "ProjName": "projectX",
+    "NodeType": "example",
+    "ServerID": 1,
+    "ZoneID": 11,
+    "LogLevel": 0,
+    "ServerDataDir": "../serverdata/",
+    "ServerConfigDir": "../config/",
+    "ClientTimeout": 15,
+    "MaxClient": 8000,
+    "SelfIP": "127.0.0.1",
+    "PortBegin": 17000,
+    "MaxPortRange": 5,
+    "RemoteID": 111,
+    "NodeName": "example_127.0.0.1_11",
+    "NowTCPListenAddr": "127.0.0.1:17000"
+}
+[INFO] 2021-11-07T16:50:41.29943+08:00 clientnet.go:20: client ip=127.0.0.1:62455, sessionID=1 OnOpen
+[DEBUG] 2021-11-07T16:50:41.29949+08:00 rolemsg.go:19: key={1}, recvLogin, roleID=1001, name=hehe
+[INFO] 2021-11-07T16:50:44.57947+08:00 clientnet.go:27: client sessionID=1 OnClose
+[INFO] 2021-11-07T16:50:44.57953+08:00 agentmgr.go:77: AgentMgr: DirectDestroyAgent, key={1}
+[INFO] 2021-11-07T16:50:55.62718+08:00 application.go:228: caught signal: interrupt
+[INFO] 2021-11-07T16:50:55.66274+08:00 dynamic.go:91: dynamic module [0:module_logic_AgentMgr] destroy
+[INFO] 2021-11-07T16:50:55.66284+08:00 dynamic.go:91: dynamic module [0:module_main_NetThread] destroy
+[INFO] 2021-11-07T16:50:55.66286+08:00 clientnet.go:140: client TCP channel closing
+[INFO] 2021-11-07T16:50:55.66296+08:00 clientnet.go:142: client channel closed
