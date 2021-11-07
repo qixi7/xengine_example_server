@@ -1,0 +1,6 @@
+example.pid
+example_server
+example/logs
+httpaddr.conf
+serverconfig.json
+stdout.log
