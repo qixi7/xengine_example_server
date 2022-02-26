@@ -1,0 +1,87 @@
+[INFO] 2022-02-26T23:59:54.55138+08:00 application.go:169: http listen  address: http://192.168.31.135:13001
+[INFO] 2022-02-26T23:59:54.55214+08:00 init.go:67: init with args:
+{
+    "ProjName": "zkjProj",
+    "NodeType": "robot",
+    "WorldID": 10,
+    "ServerIP": "127.0.0.1",
+    "GsTcpPort": 17000,
+    "ClientNum": 1,
+    "ConnNumPerFrame": 5,
+    "LogLevel": 0,
+    "Program": "robot_zkjProj_10"
+}
+[DEBUG] 2022-02-26T23:59:54.59354+08:00 robotmgr.go:110: gen new Robot roleID=1000001
+[DEBUG] 2022-02-26T23:59:54.63602+08:00 robothandler.go:21: robotHandler OnOpen. connType=0, reopen=false
+[DEBUG] 2022-02-26T23:59:54.67425+08:00 robotmsg.go:16: roleID=1000001, name=机器人_1000001, recvSyncRoleInfo, RoleID=1000001, Name=机器人_1000001
+[ERROR] 2022-02-27T00:00:06.55268+08:00 client.go:52: client[1] closed, server addr: 127.0.0.1:63810, err:unregistered message id=1
+[DEBUG] 2022-02-27T00:00:06.59318+08:00 robothandler.go:36: robotHandler OnClose, connType=0
+[INFO] 2022-02-27T00:02:58.67229+08:00 application.go:169: http listen  address: http://192.168.31.135:13001
+[INFO] 2022-02-27T00:02:58.6731+08:00 init.go:67: init with args:
+{
+    "ProjName": "zkjProj",
+    "NodeType": "robot",
+    "WorldID": 10,
+    "ServerIP": "127.0.0.1",
+    "GsTcpPort": 17000,
+    "ClientNum": 1,
+    "ConnNumPerFrame": 5,
+    "LogLevel": 0,
+    "Program": "robot_zkjProj_10"
+}
+[DEBUG] 2022-02-27T00:02:58.71397+08:00 robotmgr.go:110: gen new Robot roleID=1000001
+[DEBUG] 2022-02-27T00:02:58.75733+08:00 robothandler.go:21: robotHandler OnOpen. connType=0, reopen=false
+[DEBUG] 2022-02-27T00:02:58.79373+08:00 robotmsg.go:16: roleID=1000001, name=机器人_1000001, recvSyncRoleInfo, RoleID=1000001, Name=机器人_1000001
+[ERROR] 2022-02-27T00:03:10.67396+08:00 client.go:52: client[1] closed, server addr: 127.0.0.1:63885, err:unregistered message id=1
+[DEBUG] 2022-02-27T00:03:10.71435+08:00 robothandler.go:36: robotHandler OnClose, connType=0
+[INFO] 2022-02-27T00:03:10.71442+08:00 robotmgr.go:76: DelRobot roleID=1000001, reason=OnClose
+[DEBUG] 2022-02-27T00:03:10.75466+08:00 robotmgr.go:110: gen new Robot roleID=1000002
+[DEBUG] 2022-02-27T00:03:10.79683+08:00 robothandler.go:21: robotHandler OnOpen. connType=0, reopen=false
+[DEBUG] 2022-02-27T00:03:10.8371+08:00 robotmsg.go:16: roleID=1000002, name=机器人_1000002, recvSyncRoleInfo, RoleID=1000002, Name=机器人_1000002
+[ERROR] 2022-02-27T00:03:22.71482+08:00 client.go:52: client[2] closed, server addr: 127.0.0.1:63887, err:unregistered message id=1
+[DEBUG] 2022-02-27T00:03:22.7535+08:00 robothandler.go:36: robotHandler OnClose, connType=0
+[INFO] 2022-02-27T00:03:22.75353+08:00 robotmgr.go:76: DelRobot roleID=1000002, reason=OnClose
+[DEBUG] 2022-02-27T00:03:22.79639+08:00 robotmgr.go:110: gen new Robot roleID=1000003
+[DEBUG] 2022-02-27T00:03:22.8369+08:00 robothandler.go:21: robotHandler OnOpen. connType=0, reopen=false
+[DEBUG] 2022-02-27T00:03:22.87437+08:00 robotmsg.go:16: roleID=1000003, name=机器人_1000003, recvSyncRoleInfo, RoleID=1000003, Name=机器人_1000003
+[DEBUG] 2022-02-27T00:03:28.51415+08:00 robothandler.go:36: robotHandler OnClose, connType=0
+[INFO] 2022-02-27T00:03:28.51422+08:00 robotmgr.go:76: DelRobot roleID=1000003, reason=OnClose
+[INFO] 2022-02-27T00:03:28.52075+08:00 application.go:228: caught signal: interrupt
+[INFO] 2022-02-27T00:03:28.55649+08:00 dynamic.go:91: dynamic module [0:module_logic_RobotMgr] destroy
+[INFO] 2022-02-27T00:03:28.55659+08:00 dynamic.go:91: dynamic module [1:module_timer_Controller] destroy
+[INFO] 2022-02-27T00:03:28.5566+08:00 dynamic.go:91: dynamic module [0:module_job_Controller] destroy
+[INFO] 2022-02-27T00:06:36.298+08:00 application.go:169: http listen  address: http://192.168.31.135:13001
+[INFO] 2022-02-27T00:06:36.29896+08:00 init.go:67: init with args:
+{
+    "ProjName": "zkjProj",
+    "NodeType": "robot",
+    "WorldID": 10,
+    "ServerIP": "127.0.0.1",
+    "GsTcpPort": 17000,
+    "ClientNum": 1,
+    "ConnNumPerFrame": 5,
+    "LogLevel": 0,
+    "Program": "robot_zkjProj_10"
+}
+[DEBUG] 2022-02-27T00:06:36.3404+08:00 robotmgr.go:110: gen new Robot roleID=1000001
+[DEBUG] 2022-02-27T00:06:36.38303+08:00 robothandler.go:21: robotHandler OnOpen. connType=0, reopen=false
+[DEBUG] 2022-02-27T00:06:36.42065+08:00 robotmsg.go:16: roleID=1000001, name=机器人_1000001, recvSyncRoleInfo, RoleID=1000001, Name=机器人_1000001
+[ERROR] 2022-02-27T00:06:48.29969+08:00 client.go:52: client[1] closed, server addr: 127.0.0.1:63949, err:unregistered message id=1
+[DEBUG] 2022-02-27T00:06:48.34291+08:00 robothandler.go:36: robotHandler OnClose, connType=0
+[INFO] 2022-02-27T00:14:11.33775+08:00 application.go:169: http listen  address: http://192.168.31.135:13001
+[INFO] 2022-02-27T00:14:11.33861+08:00 init.go:67: init with args:
+{
+    "ProjName": "zkjProj",
+    "NodeType": "robot",
+    "WorldID": 10,
+    "ServerIP": "127.0.0.1",
+    "GsTcpPort": 17000,
+    "ClientNum": 1,
+    "ConnNumPerFrame": 5,
+    "LogLevel": 0,
+    "Program": "robot_zkjProj_10"
+}
+[DEBUG] 2022-02-27T00:14:11.38135+08:00 robotmgr.go:110: gen new Robot roleID=1000001
+[DEBUG] 2022-02-27T00:14:11.42045+08:00 robothandler.go:21: robotHandler OnOpen. connType=0, reopen=false
+[DEBUG] 2022-02-27T00:14:11.45943+08:00 robotmsg.go:16: roleID=1000001, name=机器人_1000001, recvSyncRoleInfo, RoleID=1000001, Name=机器人_1000001
+[DEBUG] 2022-02-27T00:15:34.89878+08:00 robothandler.go:36: robotHandler OnClose, connType=0

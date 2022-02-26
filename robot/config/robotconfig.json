@@ -1,0 +1,10 @@
+{
+    "ProjName": "testProj",
+    "NodeType":"robot",
+    "WorldID":10,
+    "ServerIP": "127.0.0.1",
+    "GsTcpPort": 17000,
+    "ClientNum":1,
+    "ConnNumPerFrame": 5,
+    "LogLevel":0
+}
