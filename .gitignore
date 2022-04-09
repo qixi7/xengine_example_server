@@ -4,3 +4,6 @@ example/logs
 httpaddr.conf
 serverconfig.json
 stdout.log
+rpc_echo.pid
+rpc_echo
+example
