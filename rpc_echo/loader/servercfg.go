@@ -1,11 +1,12 @@
 package loader
 
 import (
-	"example/root"
 	"fmt"
+	"rpc_echo/root"
 	"strconv"
 	"xcore/xlog"
 	"xpub/cfgloader"
+	"xpub/netutil"
 )
 
 // 服务器配置
@@ -17,15 +18,10 @@ type ServerConfig struct {
 	LogLevel        int    // 日志层级
 	ServerDataDir   string // 服务器档目录
 	ServerConfigDir string // 服务器配置目录
-	ClientTimeout   int    // 客户端心跳超时时间
-	MaxClient       int    // 负载
-	SelfIP          string // 本机外网IP地址(不含端口)
-	PortBegin       int    // 端口监听起始值
-	MaxPortRange    int    // 端口监听起始值累加偏移量
 	// 额外信息
-	RemoteID         int32  // 唯一路由ID=ServerID+ZoneID. 比如ServerID=1, ZoneID=2,那么RemoteID=12
-	NodeName         string // 节点名: NodeType+ip+ZoneID
-	NowTCPListenAddr string // 正在监听的TCP地址
+	RemoteID int32  // 唯一路由ID=ServerID+ZoneID. 比如ServerID=1, ZoneID=2,那么RemoteID=12
+	NodeName string // 节点名: NodeType+RemoteID
+	SelfIP   string
 }
 
 func (cfg *ServerConfig) Path() string {
@@ -64,6 +60,7 @@ func (cfg *ServerConfig) ReloadCopy() {
 
 // 健康检查,顺便可以做些额外的事, 比如你可以缓存一些数据到struct, 方便后续操作.
 func (cfg *ServerConfig) checkValid() bool {
+	cfg.SelfIP = netutil.GetLocalAddr()
 	strRemoteID := fmt.Sprintf("%d", cfg.ServerID)
 	remoteID, err := strconv.Atoi(strRemoteID)
 	if err != nil {
@@ -81,8 +78,8 @@ func (cfg *ServerConfig) PrintServerConfig() {
 	xlog.Debugf("PrintServerConfig begin.")
 	xlog.Debugf("NodeType=%s, NodeName=%s, ServerID=%d, RemoteID=%d",
 		cfg.NodeType, cfg.NodeName, cfg.ServerID, cfg.RemoteID)
-	xlog.Debugf("ServerDataDir=%s, ServerConfigDir=%s, MaxClient=%d",
-		cfg.ServerDataDir, cfg.ServerConfigDir, cfg.MaxClient)
+	xlog.Debugf("ServerDataDir=%s, ServerConfigDir=%s",
+		cfg.ServerDataDir, cfg.ServerConfigDir)
 	xlog.Debugf("PrintServerConfig end.")
 }
 

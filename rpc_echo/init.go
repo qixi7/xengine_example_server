@@ -1,10 +1,10 @@
 package main
 
 import (
-	"example/loader"
-	"example/logic"
-	"example/root"
 	"github.com/json-iterator/go"
+	"rpc_echo/loader"
+	"rpc_echo/logic"
+	"rpc_echo/root"
 	"xcore/xhlink"
 	"xcore/xlog"
 	"xcore/xmodule"
@@ -12,7 +12,11 @@ import (
 )
 
 func addClusterHandler(rpcdata *xrpc.RPCStatic) bool {
-	rpcdata.AddClusterHandler("rpc_echo", &logic.EchoHandler{})
+	rpcdata.AddClusterHandler("example", &logic.ExampleHandler{})
+	if err := rpcdata.Register(&logic.ESService{}); err != nil {
+		xlog.Errorf("Register rpc MSService err=%v", err)
+		return false
+	}
 	return true
 }
 
@@ -23,8 +27,8 @@ func doInitData() bool {
 
 func doInitGame() bool {
 	// game logic about
-	root.GameRoot.Register(root.EGAgentMgr, &logic.AgentMgr{})
-	// rpc
+
+	// rpc about
 	rpcData := root.GameRoot.Register(root.EGRpcData, xrpc.NewRPCDynamicData())
 	rpcStatic := xrpc.NewRPCStatic(rpcData)
 	root.StaticRoot.Register(root.ESCluster, rpcStatic)
@@ -35,8 +39,6 @@ func doInitGame() bool {
 }
 
 func doInitStatic() bool {
-	root.StaticRoot.Register(root.ESNetThread, NewNetThread())
-	// rpc
 	listen, dial, err := logic.NewClusterMgrHlink()
 	if err != nil {
 		xlog.Errorf("initNetwork err=%v", err)

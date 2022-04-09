@@ -1,0 +1,8 @@
+{
+    "ProjName":"{{.ProjName}}",
+    "NodeType":"rpc_echo",
+    "ServerID":{{.ServerID}},
+    "LogLevel":{{.LogLevel}},
+    "ServerDataDir": "../serverdata/",
+    "ServerConfigDir": "../config/",
+}

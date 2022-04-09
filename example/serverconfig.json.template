@@ -2,7 +2,6 @@
     "ProjName":"{{.ProjName}}",
     "NodeType":"example",
     "ServerID":{{.ServerID}},
-    "ZoneID":{{.GSCode}}{{.MultiServerID}},
     "LogLevel":{{.LogLevel}},
     "ServerDataDir": "../serverdata/",
     "ServerConfigDir": "../config/",

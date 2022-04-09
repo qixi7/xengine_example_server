@@ -38,3 +38,8 @@ message S2C_SyncRoleInfo {
     uint32 roleID = 1;   // 客户端唯一ID
     string name = 2;     // 名字
 }
+
+// ----------------------------- rpc -----------------------------
+message S2S_Echo {
+    string str = 1;
+}

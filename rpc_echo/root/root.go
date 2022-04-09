@@ -27,15 +27,13 @@ const (
 
 // EGame
 const (
-	EGAgentMgr int = iota // client mgr
-	EGRpcData
+	EGRpcData int = iota // rpc
 	EGMax
 )
 
 // EStatic
 const (
-	ESNetThread int = iota // 网络线程
-	ESHLink
+	ESHLink int = iota // 网络线程
 	ESCluster
 	ESMax
 )
