@@ -22,8 +22,4 @@ func (h *EchoHandler) OnClose(node string, link *xnet.Link) {
 	xlog.InfoF("Echo node=%s, remoteID=%d OnClose", node, link.GetRemoteID())
 }
 
-func (h *EchoHandler) OnShutdown(node string, remote int32) {
-	xlog.InfoF("Echo node=%s, remoteID=%d OnShutdown", node, remote)
-}
-
 // ----------- other Server Handler ------------
