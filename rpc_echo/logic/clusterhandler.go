@@ -13,10 +13,6 @@ func (h *ExampleHandler) OnOpen(node string, link *xnet.Link) {
 	xlog.InfoF("Example node=%s, remoteID=%d OnOpen", node, link.GetRemoteID())
 }
 
-func (h *ExampleHandler) OnReopen(node string, link *xnet.Link) {
-	xlog.InfoF("Example node=%s, remoteID=%d OnReopen", node, link.GetRemoteID())
-}
-
 func (h *ExampleHandler) OnClose(node string, link *xnet.Link) {
 	xlog.InfoF("Example=%s, remoteID=%d OnClose", node, link.GetRemoteID())
 }

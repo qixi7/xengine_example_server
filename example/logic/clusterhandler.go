@@ -18,10 +18,6 @@ func (h *EchoHandler) OnOpen(node string, link *xnet.Link) {
 	ClusterCallName("rpc_echo_211", "ESService.Echo", proto, nil)
 }
 
-func (h *EchoHandler) OnReopen(node string, link *xnet.Link) {
-	xlog.InfoF("Echo node=%s, remoteID=%d OnReopen", node, link.GetRemoteID())
-}
-
 func (h *EchoHandler) OnClose(node string, link *xnet.Link) {
 	xlog.InfoF("Echo node=%s, remoteID=%d OnClose", node, link.GetRemoteID())
 }
