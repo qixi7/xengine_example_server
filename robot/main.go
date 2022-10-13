@@ -2,11 +2,11 @@ package main
 
 import (
 	"flag"
-	"robot/global"
-	"robot/loader"
-	"robot/root"
-	"xcore/xlog"
-	"xcore/xutil"
+	"github.com/qixi7/xengine_core/xlog"
+	"github.com/qixi7/xengine_core/xutil"
+	"xserver/robot/global"
+	"xserver/robot/loader"
+	"xserver/robot/root"
 )
 
 // 进程启动参数

@@ -1,8 +1,8 @@
 package root
 
 import (
+	"github.com/qixi7/xengine_core/xmodule"
 	"math/rand"
-	"xcore/xmodule"
 )
 
 // Data Root

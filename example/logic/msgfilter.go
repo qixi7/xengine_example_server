@@ -1,6 +1,6 @@
 package logic
 
-import "pb"
+import "xserver/pb"
 
 type IMsgReceiver interface {
 	Recv(ag *agent, pack interface{})

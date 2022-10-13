@@ -1,9 +1,9 @@
 package logic
 
 import (
-	"pb"
-	"xcore/xlog"
-	"xcore/xnet"
+	"github.com/qixi7/xengine_core/xlog"
+	"github.com/qixi7/xengine_core/xnet"
+	"xserver/pb"
 )
 
 // ----------- MS Server Handler ------------
@@ -15,7 +15,7 @@ func (h *EchoHandler) OnOpen(node string, link *xnet.Link) {
 	proto := &pb.S2S_Echo{
 		Str: "Hello~",
 	}
-	ClusterCallName("rpc_echo_211", "ESService.Echo", proto, nil)
+	ClusterCallName("rpc_echo_505002", "ESService.Echo", proto, nil)
 }
 
 func (h *EchoHandler) OnClose(node string, link *xnet.Link) {

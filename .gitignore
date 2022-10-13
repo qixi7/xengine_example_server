@@ -7,3 +7,4 @@ stdout.log
 rpc_echo.pid
 rpc_echo
 example
+.idea

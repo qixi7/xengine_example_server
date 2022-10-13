@@ -1,8 +1,8 @@
 package logic
 
 import (
-	"pb"
-	"xcore/xlog"
+	"github.com/qixi7/xengine_core/xlog"
+	"xserver/pb"
 )
 
 // ------------------------- 测试登陆相关消息 -------------------------

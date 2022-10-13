@@ -1,8 +1,8 @@
 package logic
 
 import (
-	"pb"
-	"xcore/xnet"
+	"github.com/qixi7/xengine_core/xnet"
+	"xserver/pb"
 )
 
 // 客户端唯一key

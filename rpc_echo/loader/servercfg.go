@@ -2,11 +2,11 @@ package loader
 
 import (
 	"fmt"
-	"rpc_echo/root"
+	"github.com/qixi7/xengine_core/xlog"
+	"github.com/qixi7/xengine_pub/cfgloader"
+	"github.com/qixi7/xengine_pub/netutil"
 	"strconv"
-	"xcore/xlog"
-	"xpub/cfgloader"
-	"xpub/netutil"
+	"xserver/rpc_echo/root"
 )
 
 // 服务器配置

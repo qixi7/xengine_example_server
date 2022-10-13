@@ -1,11 +1,11 @@
 package loader
 
 import (
-	"example/root"
 	"fmt"
+	"github.com/qixi7/xengine_core/xlog"
+	"github.com/qixi7/xengine_pub/cfgloader"
 	"strconv"
-	"xcore/xlog"
-	"xpub/cfgloader"
+	"xserver/example/root"
 )
 
 // 服务器配置

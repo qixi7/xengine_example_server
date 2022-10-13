@@ -1,9 +1,9 @@
 package global
 
 import (
-	"rpc_echo/root"
-	"xcore/xhlink"
-	"xcore/xrpc"
+	"github.com/qixi7/xengine_core/xhlink"
+	"github.com/qixi7/xengine_core/xrpc"
+	"xserver/rpc_echo/root"
 )
 
 /*

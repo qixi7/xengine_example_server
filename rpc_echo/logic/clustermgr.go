@@ -2,12 +2,12 @@ package logic
 
 import (
 	"fmt"
-	"rpc_echo/global"
-	"rpc_echo/loader"
-	"rpc_echo/root"
-	"xcore/xhlink"
-	"xcore/xnet"
-	"xcore/xrpc"
+	"github.com/qixi7/xengine_core/xhlink"
+	"github.com/qixi7/xengine_core/xnet"
+	"github.com/qixi7/xengine_core/xrpc"
+	"xserver/rpc_echo/global"
+	"xserver/rpc_echo/loader"
+	"xserver/rpc_echo/root"
 )
 
 func NewClusterMgrHlink() ([]*xhlink.HLinkUnitConfig, []*xhlink.HLinkUnitConfig, error) {

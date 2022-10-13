@@ -1,10 +1,10 @@
 package logic
 
 import (
+	"github.com/qixi7/xengine_core/xlog"
+	"github.com/qixi7/xengine_core/xnet"
 	"os"
-	"pb"
-	"xcore/xlog"
-	"xcore/xnet"
+	"xserver/pb"
 )
 
 type IMsgReceiver interface {

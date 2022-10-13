@@ -3,14 +3,14 @@ package netmodule
 import (
 	"encoding/binary"
 	"fmt"
-	"pb"
-	"robot/global"
-	"robot/loader"
+	"github.com/qixi7/xengine_core/xcontainer/timer"
+	"github.com/qixi7/xengine_core/xlog"
+	"github.com/qixi7/xengine_core/xmemory"
+	"github.com/qixi7/xengine_core/xnet"
 	"time"
-	"xcore/xcontainer/timer"
-	"xcore/xlog"
-	"xcore/xmemory"
-	"xcore/xnet"
+	"xserver/pb"
+	"xserver/robot/global"
+	"xserver/robot/loader"
 )
 
 /*

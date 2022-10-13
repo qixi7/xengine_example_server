@@ -1,12 +1,12 @@
 package main
 
 import (
-	"example/global"
-	"example/loader"
-	"example/root"
 	"flag"
-	"xcore/xlog"
-	"xcore/xutil"
+	"github.com/qixi7/xengine_core/xlog"
+	"github.com/qixi7/xengine_core/xutil"
+	"xserver/example/global"
+	"xserver/example/loader"
+	"xserver/example/root"
 )
 
 func main() {

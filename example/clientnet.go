@@ -2,15 +2,15 @@ package main
 
 import (
 	"encoding/binary"
-	"example/loader"
-	"example/logic"
 	"fmt"
+	"github.com/qixi7/xengine_core/xlog"
+	"github.com/qixi7/xengine_core/xmemory"
+	"github.com/qixi7/xengine_core/xmodule"
+	"github.com/qixi7/xengine_core/xnet"
 	"strings"
 	"time"
-	"xcore/xlog"
-	"xcore/xmemory"
-	"xcore/xmodule"
-	"xcore/xnet"
+	"xserver/example/loader"
+	"xserver/example/logic"
 )
 
 type msClientHandler struct {

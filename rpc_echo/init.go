@@ -2,13 +2,13 @@ package main
 
 import (
 	"github.com/json-iterator/go"
-	"rpc_echo/loader"
-	"rpc_echo/logic"
-	"rpc_echo/root"
-	"xcore/xhlink"
-	"xcore/xlog"
-	"xcore/xmodule"
-	"xcore/xrpc"
+	"github.com/qixi7/xengine_core/xhlink"
+	"github.com/qixi7/xengine_core/xlog"
+	"github.com/qixi7/xengine_core/xmodule"
+	"github.com/qixi7/xengine_core/xrpc"
+	"xserver/rpc_echo/loader"
+	"xserver/rpc_echo/logic"
+	"xserver/rpc_echo/root"
 )
 
 func addClusterHandler(rpcdata *xrpc.RPCStatic) bool {

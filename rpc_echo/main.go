@@ -2,11 +2,11 @@ package main
 
 import (
 	"flag"
-	"rpc_echo/global"
-	"rpc_echo/loader"
-	"rpc_echo/root"
-	"xcore/xlog"
-	"xcore/xutil"
+	"github.com/qixi7/xengine_core/xlog"
+	"github.com/qixi7/xengine_core/xutil"
+	"xserver/rpc_echo/global"
+	"xserver/rpc_echo/loader"
+	"xserver/rpc_echo/root"
 )
 
 func main() {

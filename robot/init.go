@@ -2,15 +2,15 @@ package main
 
 import (
 	"github.com/json-iterator/go"
+	"github.com/qixi7/xengine_core/xcontainer/job"
+	"github.com/qixi7/xengine_core/xcontainer/timer"
+	"github.com/qixi7/xengine_core/xlog"
+	"github.com/qixi7/xengine_core/xmodule"
 	"math/rand"
-	"robot/loader"
-	"robot/logic"
-	"robot/root"
 	"time"
-	"xcore/xcontainer/job"
-	"xcore/xcontainer/timer"
-	"xcore/xlog"
-	"xcore/xmodule"
+	"xserver/robot/loader"
+	"xserver/robot/logic"
+	"xserver/robot/root"
 )
 
 func doInitData() bool {

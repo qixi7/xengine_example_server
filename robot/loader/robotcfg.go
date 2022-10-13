@@ -2,9 +2,9 @@ package loader
 
 import (
 	"fmt"
-	"robot/root"
-	"xcore/xlog"
-	"xpub/cfgloader"
+	"github.com/qixi7/xengine_core/xlog"
+	"github.com/qixi7/xengine_pub/cfgloader"
+	"xserver/robot/root"
 )
 
 // 机器人配置

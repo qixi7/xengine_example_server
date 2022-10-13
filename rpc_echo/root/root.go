@@ -1,7 +1,7 @@
 package root
 
 import (
-	"xcore/xmodule"
+	"github.com/qixi7/xengine_core/xmodule"
 )
 
 // Data Root

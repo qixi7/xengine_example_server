@@ -2,8 +2,8 @@ package logic
 
 import (
 	"fmt"
-	"robot/logic/basemodule"
-	"robot/logic/netmodule"
+	"xserver/robot/logic/basemodule"
+	"xserver/robot/logic/netmodule"
 )
 
 /*

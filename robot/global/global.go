@@ -1,9 +1,9 @@
 package global
 
 import (
-	"robot/root"
-	"xcore/xcontainer/job"
-	"xcore/xcontainer/timer"
+	"github.com/qixi7/xengine_core/xcontainer/job"
+	"github.com/qixi7/xengine_core/xcontainer/timer"
+	"xserver/robot/root"
 )
 
 /*

@@ -1,15 +1,15 @@
 package logic
 
 import (
-	"robot/global"
-	"robot/loader"
-	"robot/root"
+	"github.com/qixi7/xengine_core/xcontainer/timer"
+	"github.com/qixi7/xengine_core/xlog"
+	"github.com/qixi7/xengine_core/xmodule"
+	"github.com/qixi7/xengine_core/xutil"
 	"runtime"
 	"time"
-	"xcore/xcontainer/timer"
-	"xcore/xlog"
-	"xcore/xmodule"
-	"xcore/xutil"
+	"xserver/robot/global"
+	"xserver/robot/loader"
+	"xserver/robot/root"
 )
 
 /*

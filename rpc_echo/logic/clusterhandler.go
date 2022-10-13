@@ -1,8 +1,8 @@
 package logic
 
 import (
-	"xcore/xlog"
-	"xcore/xnet"
+	"github.com/qixi7/xengine_core/xlog"
+	"github.com/qixi7/xengine_core/xnet"
 )
 
 // ----------- MS Server Handler ------------

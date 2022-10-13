@@ -1,9 +1,9 @@
 package logic
 
 import (
-	"pb"
-	"xcore/xlog"
-	"xcore/xrpc"
+	"github.com/qixi7/xengine_core/xlog"
+	"github.com/qixi7/xengine_core/xrpc"
+	"xserver/pb"
 )
 
 // rpc game server service

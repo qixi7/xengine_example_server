@@ -1,11 +1,11 @@
 package logic
 
 import (
-	"example/root"
-	"pb"
-	"xcore/xlog"
-	"xcore/xmodule"
-	"xcore/xnet"
+	"github.com/qixi7/xengine_core/xlog"
+	"github.com/qixi7/xengine_core/xmodule"
+	"github.com/qixi7/xengine_core/xnet"
+	"xserver/example/root"
+	"xserver/pb"
 )
 
 // 客户端管理类

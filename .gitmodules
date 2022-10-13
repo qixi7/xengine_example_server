@@ -1,12 +1,3 @@
-[submodule "xcore"]
-	path = xcore
-	url = git@github.com:qixi7/xengine_core.git
 [submodule "tool"]
 	path = tool
 	url = git@github.com:qixi7/xengine_tool.git
-[submodule "xpub"]
-	path = xpub
-	url = git@github.com:qixi7/xengine_pub.git
-[submodule "vendor"]
-	path = vendor
-	url = git@github.com:qixi7/xengine_vendor.git
